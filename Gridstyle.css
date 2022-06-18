@@ -1,0 +1,55 @@
+@import url('https://fonts.google.com/specimen/Lexend+Deca', 'https://fonts.google.com/specimen/Big+Shoulders+Display');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(26, 26, 26);
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    size: 10px;
+}
+main{
+    display: grid;
+    grid-template-areas: 
+    'r r y'
+    'g b1 b1'
+    'g b2 b2'
+    ;
+    gap: 10px;
+}
+main div{  
+    padding: 2em;
+    border-radius: 1px;
+
+}
+.Red{
+    background-color: red;
+    grid-area: r;
+    height: 100px;
+    width: 200px;
+}
+.yellow{
+    background-color:rgb(255, 208, 0);
+    grid-area: y;
+    width: 100px;
+}
+.green{
+    background-color: green;
+    grid-area: g;
+    height: 100px;
+    width: 130px;
+}
+
+.blue1{
+    background-color: rgb(28, 172, 255);
+    grid-area: b1;
+    height: 13px;
+}
+.blue2{
+    background-color: rgb(28, 172, 255);
+    grid-area: b2;
+    height: 13px;
+}
