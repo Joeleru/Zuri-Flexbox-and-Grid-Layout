@@ -1,3 +1,3 @@
-console.log("Hello World - Adding to this file");
+console.log("Hello Class - Adding to this file");
 
 // adding to this JS File
